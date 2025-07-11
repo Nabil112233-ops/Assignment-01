@@ -81,7 +81,7 @@ header{
         font-size: 38px;
         font-weight: bold;
         text-align: center;
-        margin-bottom: 40px;
+        /* margin-bottom: 40px; */
     }
     .title{
         font-size: 80px;
@@ -95,6 +95,61 @@ header{
     }
     .user-title{
         gap: 0;
+    }
+
+    .feedback{
+        font-size: 42px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 137px;
+    }
+    .feedback-img{
+        width: 40px;
+        height: 40px;
+        border-radius: 999px;
+    }
+    .user-card{
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        padding: 10px;
+    }
+    .user-img{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+    .user-info{
+        display: flex;
+        flex-direction: column;
+    }
+    .user-name{
+        margin: 0;
+        font-size: 16px;
+        font-weight: 600;
+        color: #757575;
+    }
+    .user-role{
+        margin: 2px 0 0;
+        font-size: 12px;
+        color: #B3B3B3;
+    }
+    .section{
+        border: 1px solid #F0E5E5;
+        width: 310px;
+        height: 190px;
+        padding: 24px 24px 20px 24px;
+        align-items: center;
+        border-radius: 14px;
+    }
+    .user-star{
+        margin-bottom: 24px;
+    }
+    .section-group{
+        display: flex;
+        justify-content: space-around;
+        margin: 50px 150px 0 150px;
+        gap: 20px;
     }
         
  
